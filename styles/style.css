@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --dark-grey: hsl(0, 0%, 55%);
+    --very-dark-grey: hsl(0, 0%, 41%);
+}
+
+a:hover {
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid var(--white);
+}
+
+svg {
+    cursor: pointer;
+}
+
+.pageHeader {
+    background-image: url(../images/desktop/image-hero.jpg);
+    height: 40.625rem;
+    max-width: 1440px;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4.6875rem 0 5rem 10rem;
+}
+
+.anchorNavBar {
+    color: var(--white);
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+.ulNavBar {
+    margin-right: 10rem;
+}
+
+.firstSectionP {
+    color: var(--dark-grey);
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+}
+
+.hero-text-container {
+    display: flex;
+    justify-content: initial;
+    align-items: center;
+    width: 40.625rem;
+    height: 17.1875rem;
+    margin: 0 0 9.0625rem 10rem;
+    border: 2px solid var(--white);
+}
+
+.hero-text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: 300;
+    color: var(--white);
+    margin: 40px 80px 40px 45px;
+}
+
+.firstSection {
+    display: flex;
+    position: relative;
+    height: 31.25rem;
+    margin: 10rem 10.3125rem 11.5625rem 10.3125rem;
+}
+
+.firstSectionArticle {
+    background-color: var(--white);
+    position: absolute;
+    right: -6rem;
+    bottom: -1px;
+    z-index: 1;
+    padding: 5rem 0 0 5rem;
+}
+
+.firstSectionSpan {
+    color: var(--black);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 5rem;
+    font-weight: 300;
+}
+
+.secondSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 11.5625rem;
+}
+
+.secondSectionHeader {
+    display: flex;
+    margin-bottom: 3.75rem;
+}
+
+h2 {
+    color: var(--black);
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
+    font-size: 5rem;
+    margin-right: 30rem;
+}
+
+button {
+    width: 12.5rem;
+    height: 4rem;
+    border: 3px solid var(--black);
+    border-radius: 3px;
+    background-color: transparent;
+    color: var(--black);
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+
+tr {
+    display: flex;
+    flex-direction: row;
+}
+
+td {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1.875rem;
+    cursor: pointer;
+}
+
+.tableSpan {
+    position: absolute;
+    bottom: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    color: var(--white);
+    font-weight: 300;
+    font-size: 2.5rem;
+    margin: 0 0 2.5rem 2.5rem;
+}
+
+.pageFooter {
+    background-color: var(--black);
+    display: flex;
+    flex-direction: column;
+    height: 6rem;
+    padding: 2.8125rem 10rem;
+}
+
+.footerDiv1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.875rem;
+    right: 0;
+}
+
+.footerAnchor {
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin-right: 1.5rem;
+    color: var(--white);
+}
+
+.footerDiv2 {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2.8125rem;
+}
+
+.svgUl > * {
+    margin: 0.5rem;
+}
+
+small {
+    color: var(--very-dark-grey);
+    font-family: 'Alata', sans-serif;
+    font-weight: 400;
+}
+
+@media (min-width: 1440px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .firstSectionArticle {
+        right: -35rem;
+    }
+    .firstSection {
+        margin-top: 2rem;
+    }
+}
