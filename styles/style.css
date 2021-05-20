@@ -157,7 +157,7 @@ td {
 
 .pageFooterMobile {
     background-color: var(--black);
-    display: flex;
+    display: none;
     flex-direction: column;
     height: 6rem;
     padding: 2.8125rem 10rem;
@@ -223,9 +223,9 @@ small {
   display: none;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
   .pageHeader {
-    max-width: 375px;
+    max-width: 425px;
     width: 100%;
   }
 
