@@ -127,6 +127,7 @@ button {
 tr {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 td {
@@ -362,4 +363,10 @@ small {
       bottom: 5rem;
   }
 
+}
+
+@media (max-width: 1440px) {
+  .firstSectionArticle {
+    right: 0;
+  }
 }
