@@ -127,6 +127,7 @@ button {
 tr {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 
 td {
