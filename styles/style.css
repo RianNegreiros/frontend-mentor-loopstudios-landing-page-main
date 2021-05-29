@@ -364,3 +364,9 @@ small {
   }
 
 }
+
+@media (max-width: 1440px) {
+  .firstSectionArticle {
+    right: 0;
+  }
+}
